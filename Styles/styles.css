@@ -1,0 +1,169 @@
+/* stylistic settings for general body texts */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: rgb(166, 117, 117);
+}
+/* styles for list items */
+li {
+    font-size: 18px;
+    font-style: italic;
+    color: rgb(178, 145, 173);
+    font-weight: normal;
+}
+/* for the title only */
+.titlestyle {
+    font-size: 45px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(180, 10, 10);
+}
+/* for paragraph texts */
+p {color: rgb(207, 112, 174);}
+/* for the anchor links */
+a {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: maroon;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:visited {
+    color: rgb(204, 142, 133);
+}
+.resumelistheading {
+    font-weight: bold;
+    font-style: normal;
+}
+/* more styles for texts */
+.underline {text-decoration: underline;}
+.bold {font-weight: bold;}
+.justify{text-align: justify;}
+
+/* positioning especially for divs */
+.box1 {
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+}
+
+.box3 {
+    margin: 50px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+/* positioning for headers and for certain links to float */
+.subheaderright {
+    float: right;
+}
+
+.subheaderleft {
+    float: left;
+}
+/* more text positioning */
+.centertext {
+    text-align: center;
+}
+
+.righttext {
+    text-align: right;
+}
+
+.finaltextbolds {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+/* copied and pasted from layout because the html wont recognize my layout css */
+
+.common {
+    position: absolute;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+}
+.header {
+    top: 15px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    z-index: 1;
+    padding-left: 5px;
+    padding-top: 5px;
+    border-bottom: solid 1px #000000
+
+}
+.leftmenu {
+    top: 130px;
+    left: 5px;
+    width: 180px;
+    bottom: 1px;
+    /* z-index: 1; */
+    padding-top: 40px;
+    padding-left: 10px; 
+    padding-right: 10px;
+    border-right: solid 1px #000000;
+}
+.mainbody {
+    top: 130px;
+    left: 215px;
+    right: 265px;
+    bottom: 1px;
+    padding-top: 40px;
+    padding-left: 10px; 
+    padding-right: 10px;
+    /* border-bottom: #000000 solid 1px; */
+}
+
+.rightmenu {
+    top: 130px;
+    right: 5px;
+    width: 230px;
+    bottom: 1px;
+    padding-top: 40px;
+    padding-left: 10px; 
+    padding-right: 10px;
+    border-left: #000000 solid 1px;
+}
+.footer {
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    text-align: center;
+    font-size: 15px;
+    position: fixed;
+}
+
+.box2 {
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+
+}
+
+.backgroundcolor {
+    background-color: rgb(255, 224, 217);
+}
+
+
+
+
+
+
+
+
+
+
